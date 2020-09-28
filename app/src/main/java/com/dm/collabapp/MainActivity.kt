@@ -3,6 +3,7 @@ package com.dm.collabapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,6 +12,10 @@ class MainActivity : AppCompatActivity() {
 
 
         Toast.makeText(this, "Helloooo github", Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, "Hello00 github", Toast.LENGTH_SHORT).show()
+
+
+        button.setOnClickListener {
+            Toast.makeText(this, "button tap", Toast.LENGTH_SHORT).show()
+        }
     }
 }
