@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Toast.makeText(this, "Hello github", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Helloooo github", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Hello00 github", Toast.LENGTH_SHORT).show()
     }
 }
